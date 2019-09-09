@@ -1,0 +1,281 @@
+EventPointerTable(0x5E,Chapter20)
+
+
+Chapter20:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Ria RiaLord 0 Level(0,Ally,False) [13,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Itzhar CursedSword 0 Level(0,Ally,False) [12,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [13,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [13,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [15,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [13,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [12,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [15,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [12,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [15,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+NewUnits:
+UNIT Itzhar CursedSword 0 Level(15,Ally,False) [0,0] 0x0 0x0 0x0 0x1 [LightBrand,SilverSword] NoAI
+UNIT
+
+EnemyUnits:
+UNIT Heinrik Spartan 0 Level(16,Enemy,False) [4,2] 0x2 0x0 0x0 0x1 [Spear,LightBrand,Elixir] NeverMoveAI
+UNIT 0x96 Hero 0 Level(12,Enemy,True) [17,6] 0x0 0x0 0x0 0x1 [SteelBlade,HandAxe] AttackInRangeAI
+UNIT 0x96 Hero 0 Level(12,Enemy,True) [18,12] 0x0 0x0 0x0 0x1 [SilverSword,SteelAxe] AttackInRangeAI
+UNIT 0x96 Swordmaster_F 0 Level(12,Enemy,True) [18,4] 0x2 0x0 0x0 0x1 [Shamshir] AttackInRangeAI
+UNIT 0x96 AxeLancePaladin 0 Level(12,Enemy,True) [4,13] 0x0 0x0 0x0 0x1 [SteelAxe,SilverLance] AttackInRangeAI
+UNIT 0x96 LanceSwordPaladin 0 Level(12,Enemy,True) [5,9] 0x0 0x0 0x0 0x1 [Javelin,SteelSword] AttackInRangeAI
+UNIT 0x96 SwordAxePaladin 0 Level(12,Enemy,True) [2,5] 0x0 0x0 0x0 0x1 [SilverSword,HandAxe] AttackInRangeAI
+UNIT 0x96 Halberdier 0 Level(12,Enemy,True) [17,10] 0x0 0x0 0x0 0x1 [KillerLance] AttackInRangeAI
+UNIT 0x96 Halberdier 0 Level(12,Enemy,True) [12,6] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT 0x96 Spartan 0 Level(12,Enemy,True) [8,16] 0x2 0x0 0x0 0x1 [ShortSpear,SteelSword] AttackInRangeAI
+UNIT 0x96 Spartan 0 Level(12,Enemy,True) [10,1] 0x2 0x0 0x0 0x1 [SteelLance,WindSword] AttackInRangeAI
+UNIT 0x96 Sage 0 Level(12,Enemy,True) [2,15] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x96 Sage_F 0 Level(12,Enemy,True) [19,3] 0x0 0x0 0x0 0x1 [Aura,Physic] HealUnits
+UNIT 0x96 Sage_F 0 Level(12,Enemy,True) [6,6] 0x0 0x0 0x0 0x1 [Bolting] AttackInRangeAI
+UNIT 0x96 Sage_F 0 Level(12,Enemy,True) [3,3] 0x0 0x0 0x0 0x1 [Excalibur] AttackInRangeAI
+UNIT 0x96 MageKnight 0 Level(12,Enemy,True) [10,10] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x96 General 0 Level(12,Enemy,True) [14,10] 0x0 0x0 0x0 0x1 [SilverAxe] AttackInRangeAI
+UNIT 0x96 General 0 Level(12,Enemy,True) [8,8] 0x0 0x0 0x0 0x1 [SilverSword] AttackInRangeAI
+UNIT 0x96 Druid 0 Level(12,Enemy,True) [19,13] 0x2 0x0 0x0 0x1 [Nosferatu] AttackInRangeAI
+UNIT 0x96 Druid 0 Level(12,Enemy,True) [15,6] 0x0 0x0 0x0 0x1 [Flux] AttackInRangeAI
+UNIT 0x96 Bishop 0 Level(12,Enemy,True) [6,13] 0x0 0x0 0x0 0x1 [Aura,Mend] HealUnits
+UNIT 0x96 Bishop 0 Level(12,Enemy,True) [6,10] 0x0 0x0 0x0 0x1 [Divine,Physic] HealUnits
+UNIT 0x96 Templar 0 Level(12,Enemy,True) [4,5] 0x0 0x0 0x0 0x1 [Divine] AttackInRangeAI
+UNIT 0x96 NomadTrooper_F 0 Level(12,Enemy,True) [7,0] 0x0 0x0 0x0 0x1 [SteelSword,SilverBow] AttackInRangeAI
+UNIT 0x96 Sniper 0 Level(12,Enemy,True) [13,0] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+UNIT
+
+TurnBasedEvents:
+TurnEventPlayer(0,ReinforcementEvent1,3)
+TurnEventPlayer(0,ReinforcementEvent2,4)
+TurnEventPlayer(0,ReinforcementEvent3,5)
+TurnEventPlayer(0,ReinforcementEvent4,6)
+TurnEventPlayer(0,ReinforcementEvent5,7)
+TurnEventPlayer(0,ReinforcementEvent6,8)
+TurnEventPlayer(0,ReinforcementEvent7,9)
+TurnEventPlayer(0,ReinforcementEvent8,10)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(7,Village1,8,14)
+Village(8,Village2,16,2)
+Seize(4,2)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+LOAD1 0x1 NewUnits
+ENUN
+CLEA 0
+LOAD1 0x1 EnemyUnits
+ENUN
+FADU 10
+GotoPrepScreen
+NoFade
+ENDA
+
+EndingScene:
+MNC2 21
+NoFade
+ENDA
+
+Reinforcements1:
+UNIT 0x96 WyvernKnight 0 Level(12,Enemy,True) [1,0] 0x0 0x0 0x0 0x1 [SilverAxe,SilverLance] AttackInRangeAI
+UNIT
+
+Reinforcements2:
+UNIT 0x96 WyvernLord 0 Level(12,Enemy,True) [2,1] 0x0 0x0 0x0 0x1 [SilverSword,SilverLance] AttackInRangeAI
+UNIT
+
+Reinforcements3:
+UNIT 0x96 Falcoknight 0 Level(12,Enemy,True) [0,9] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT
+
+Reinforcements4:
+UNIT 0x96 Berserker 0 Level(12,Enemy,True) [3,15] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
+UNIT
+
+Reinforcements5:
+UNIT 0x96 Warrior 0 Level(12,Enemy,True) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
+UNIT
+
+Reinforcements6:
+UNIT 0x96 Spartan 0 Level(12,Enemy,True) [14,5] 0x0 0x0 0x0 0x1 [SilverSword,SilverLance] AttackInRangeAI
+UNIT
+
+ReinforcementEvent1:
+LOAD1 0x1 Reinforcements3
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent2:
+LOAD1 0x1 Reinforcements1
+ENUN
+LOAD1 0x1 Reinforcements2
+ENUN
+LOAD1 0x1 Reinforcements3
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent3:
+LOAD1 0x1 Reinforcements2
+ENUN
+LOAD1 0x1 Reinforcements3
+ENUN
+LOAD1 0x1 Reinforcements4
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent4:
+LOAD1 0x1 Reinforcements2
+ENUN
+LOAD1 0x1 Reinforcements3
+ENUN
+LOAD1 0x1 Reinforcements5
+ENUN
+LOAD1 0x1 Reinforcements1
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent5:
+LOAD1 0x1 Reinforcements4
+ENUN
+LOAD1 0x1 Reinforcements5
+ENUN
+LOAD1 0x1 Reinforcements6
+ENUN
+LOAD1 0x1 Reinforcements1
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent6:
+LOAD1 0x1 Reinforcements6
+ENUN
+LOAD1 0x1 Reinforcements3
+ENUN
+LOAD1 0x1 Reinforcements2
+ENUN
+LOAD1 0x1 Reinforcements1
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent7:
+LOAD1 0x1 Reinforcements1
+ENUN
+LOAD1 0x1 Reinforcements2
+ENUN
+LOAD1 0x1 Reinforcements3
+ENUN
+LOAD1 0x1 Reinforcements4
+ENUN
+LOAD1 0x1 Reinforcements5
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent8:
+LOAD1 0x1 Reinforcements3
+ENUN
+LOAD1 0x1 Reinforcements2
+ENUN
+LOAD1 0x1 Reinforcements6
+ENUN
+LOAD1 0x1 Reinforcements5
+ENUN
+LOAD1 0x1 Reinforcements1
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent9:
+LOAD1 0x1 Reinforcements1
+ENUN
+LOAD1 0x1 Reinforcements4
+ENUN
+LOAD1 0x1 Reinforcements6
+ENUN
+LOAD1 0x1 Reinforcements3
+ENUN
+LOAD1 0x1 Reinforcements2
+ENUN
+NoFade
+ENDA
+
+ReinforcementEvent10:
+LOAD1 0x1 Reinforcements1
+ENUN
+LOAD1 0x1 Reinforcements2
+ENUN
+LOAD1 0x1 Reinforcements3
+ENUN
+LOAD1 0x1 Reinforcements4
+ENUN
+LOAD1 0x1 Reinforcements5
+ENUN
+LOAD1 0x1 Reinforcements6
+ENUN
+NoFade
+ENDA
+
+Village1:
+MUSI
+SetBackground($1)
+Text(Ch20Village1)
+EndConvo
+SVAL 3 SecretBook
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+Village2:
+MUSI
+SetBackground($1)
+Text(Ch20Village2)
+EndConvo
+SVAL 3 Boots
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+

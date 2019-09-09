@@ -1,0 +1,431 @@
+#include "Tools/Tool Helpers.txt"
+//this file defines the macro:
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+ALIGN 16
+RiaPortrait:
+#incext PortraitFormatter "Playables/Ria.png"
+GarthanPortrait:
+#incext PortraitFormatter "Playables/Garthan.png"
+EverettPortrait:
+#incext PortraitFormatter "Playables/Everett.png"
+IgnacePortrait:
+#incext PortraitFormatter "Playables/Ignace.png"
+EdithPortrait:
+#incext PortraitFormatter "Playables/Edith.png"
+MaurusPortrait:
+#incext PortraitFormatter "Playables/Maurus.png"
+FuriaPortrait:
+#incext PortraitFormatter "Playables/Furia.png"
+KatePortrait:
+#incext PortraitFormatter "Playables/Kate.png"
+LilacPortrait:
+#incext PortraitFormatter "Playables/Lilac.png"
+SayraPortrait:
+#incext PortraitFormatter "Playables/Sayra.png"
+JhonkaPortrait:
+#incext PortraitFormatter "Playables/Jhonka.png"
+AciesPortrait:
+#incext PortraitFormatter "Playables/Acies.png"
+YorrickPortrait:
+#incext PortraitFormatter "Playables/Yorrick.png"
+MintPortrait:
+#incext PortraitFormatter "Playables/Mint.png"
+GershonPortrait:
+#incext PortraitFormatter "Playables/Gershon.png"
+OsianPortrait:
+#incext PortraitFormatter "Playables/Osian.png"
+TonyPortrait:
+#incext PortraitFormatter "Playables/Tony.png"
+JuanPortrait:
+#incext PortraitFormatter "Playables/Juan.png"
+ReubenPortrait:
+#incext PortraitFormatter "Playables/Reuben.png"
+Anna1Portrait:
+#incext PortraitFormatter "Playables/Anna1.png"
+ArlaPortrait:
+#incext PortraitFormatter "Playables/Arla.png"
+IrenaPortrait:
+#incext PortraitFormatter "Playables/Irena.png"
+ReaganPortrait:
+#incext PortraitFormatter "Playables/Reagan.png"
+IngridPortrait:
+#incext PortraitFormatter "Playables/Ingrid.png"
+Dan1Portrait:
+#incext PortraitFormatter "Playables/Dan1.png"
+Dan2Portrait:
+#incext PortraitFormatter "Playables/Dan2.png"
+FraochPortrait:
+#incext PortraitFormatter "Playables/Fraoch.png"
+KarnPortrait:
+#incext PortraitFormatter "Playables/Karn.png"
+SonnyPortrait:
+#incext PortraitFormatter "Playables/Sonny.png"
+AlyaPortrait:
+#incext PortraitFormatter "Playables/Alya.png"
+HadiPortrait:
+#incext PortraitFormatter "Playables/Hadi.png"
+FeidlimidPortrait:
+#incext PortraitFormatter "Playables/Feidlimid.png"
+DogPortrait:
+#incext PortraitFormatter "Playables/Dog.png"
+VolstaggPortrait:
+#incext PortraitFormatter "Playables/Volstagg.png"
+RhosynPortrait:
+#incext PortraitFormatter "Playables/Rhosyn.png"
+ArwenPortrait:
+#incext PortraitFormatter "Playables/Arwen.png"
+EoPortrait:
+#incext PortraitFormatter "Playables/Brent.png"
+Anna2Portrait:
+#incext PortraitFormatter "Playables/Anna2.png"
+FelixPortrait:
+#incext PortraitFormatter "Playables/Felix.png"
+WandaPortrait:
+#incext PortraitFormatter "Playables/Wanda.png"
+ItzharPortrait:
+#incext PortraitFormatter "Playables/Mystletainn.png"
+DestinyPortrait:
+#incext PortraitFormatter "Playables/Destiny.png"
+NathanPortrait:
+#incext PortraitFormatter "Bosses/Nathan.png"
+BernerPortrait:
+#incext PortraitFormatter "Bosses/Berner.png"
+SkaidritePortrait:
+#incext PortraitFormatter "Bosses/Skaidrite.png"
+IgnavePortrait:
+#incext PortraitFormatter "Bosses/Ignave.png"
+AlzoramPortrait:
+#incext PortraitFormatter "Bosses/Alzoram.png"
+MerarriPortrait:
+#incext PortraitFormatter "Bosses/Merarri.png"
+AlgrimPortrait:
+#incext PortraitFormatter "Bosses/Algrim.png"
+MaulochPortrait:
+#incext PortraitFormatter "Bosses/Mauloch.png"
+RicketsPortrait:
+#incext PortraitFormatter "Bosses/Rickets.png"
+LucioPortrait:
+#incext PortraitFormatter "Bosses/Lucio.png"
+CyrillePortrait:
+#incext PortraitFormatter "Bosses/Cyrille.png"
+BlunderbussPortrait:
+#incext PortraitFormatter "Bosses/Blunderbuss.png"
+AvanthPortrait:
+#incext PortraitFormatter "Bosses/Avanth.png"
+RansleyPortrait:
+#incext PortraitFormatter "Bosses/Ransley.png"
+VercingePortrait:
+#incext PortraitFormatter "Bosses/Vercinge.png"
+DiqhedPortrait:
+#incext PortraitFormatter "Bosses/Diqhed.png"
+EsmePortrait:
+#incext PortraitFormatter "Bosses/Esme.png"
+KorathPortrait:
+#incext PortraitFormatter "Bosses/Korath.png"
+GaburasPortrait:
+#incext PortraitFormatter "Bosses/Gaburas.png"
+AswangPortrait:
+#incext PortraitFormatter "Bosses/Aswang.png"
+ZelrothPortrait:
+#incext PortraitFormatter "Bosses/Zelroth.png"
+WulfricPortrait:
+#incext PortraitFormatter "Bosses/Wulfric.png"
+FloorentiusPortrait:
+#incext PortraitFormatter "Bosses/Floorentius.png"
+ZephyrPortrait:
+#incext PortraitFormatter "Bosses/Zephyr.png"
+GodfreyPortrait:
+#incext PortraitFormatter "Bosses/Godfrey.png"
+HeinrikPortrait:
+#incext PortraitFormatter "Bosses/Heinrik.png"
+MorphLucioPortrait:
+#incext PortraitFormatter "Bosses/MorphLucio.png"
+MorphEsmePortrait:
+#incext PortraitFormatter "Bosses/MorphEsme.png"
+MorphKorathPortrait:
+#incext PortraitFormatter "Bosses/MorphKorath.png"
+MorphWulfricPortrait:
+#incext PortraitFormatter "Bosses/MorphWulfric.png"
+MorphAswangPortrait:
+#incext PortraitFormatter "Bosses/MorphAswang.png"
+MorphZelrothPortrait:
+#incext PortraitFormatter "Bosses/MorphZelroth.png"
+MorphFloorentiusPortrait:
+#incext PortraitFormatter "Bosses/MorphFloorentius.png"
+MorphDiqhedPortrait:
+#incext PortraitFormatter "Bosses/MorphDiqhed.png"
+MorphAlgrimPortrait:
+#incext PortraitFormatter "Bosses/MorphAlgrim.png"
+TempestPortrait:
+#incext PortraitFormatter "Bosses/Tempest.png"
+TomorsiifPortrait:
+#incext PortraitFormatter "Bosses/Tomorsiif.png"
+MizukiPortrait:
+#incext PortraitFormatter "Bosses/Mizuki.png"
+VillagerPortrait1:
+#incext PortraitFormatter "NPCs/88.png"
+VillagerPortrait2:
+#incext PortraitFormatter "NPCs/89.png"
+VillagerPortrait3:
+#incext PortraitFormatter "NPCs/90.png"
+VillagerPortrait4:
+#incext PortraitFormatter "NPCs/91.png"
+VillagerPortrait5:
+#incext PortraitFormatter "NPCs/92.png"
+VillagerPortrait6:
+#incext PortraitFormatter "NPCs/93.png"
+VillagerPortrait7:
+#incext PortraitFormatter "NPCs/94.png"
+VillagerPortrait8:
+#incext PortraitFormatter "NPCs/95.png"
+VillagerPortrait9:
+#incext PortraitFormatter "NPCs/96.png"
+VillagerPortrait10:
+#incext PortraitFormatter "NPCs/97.png"
+VillagerPortrait11:
+#incext PortraitFormatter "NPCs/98.png"
+VillagerPortrait12:
+#incext PortraitFormatter "NPCs/99.png"
+
+
+setMugEntry(RiaMug, RiaPortrait, 3, 5, 3, 3)
+setMugEntry(GarthanMug, GarthanPortrait, 2, 5, 2, 3)
+setMugEntry(EverettMug, EverettPortrait, 2, 6, 3, 4)
+setMugEntry(IgnaceMug, IgnacePortrait, 3, 6, 3, 4)
+setMugEntry(EdithMug, EdithPortrait, 2, 5, 3, 3)
+setMugEntry(MaurusMug, MaurusPortrait, 2, 5, 2, 3)
+setMugEntry(FuriaMug, FuriaPortrait, 4, 6, 4, 4)
+setMugEntry(KateMug, KatePortrait, 3, 6, 3, 4)
+setMugEntry(LilacMug, LilacPortrait, 4, 6, 4, 4)
+setMugEntry(SayraMug, SayraPortrait, 2, 6, 3, 4)
+setMugEntry(JhonkaMug, JhonkaPortrait, 3, 5, 3, 3)
+setMugEntry(AciesMug, AciesPortrait, 3, 4, 3, 2)
+setMugEntry(YorrickMug, YorrickPortrait, 3, 5, 3, 3)
+setMugEntry(MintMug, MintPortrait, 3, 5, 3, 3)
+setMugEntry(GershonMug, GershonPortrait, 4, 6, 4, 4)
+setMugEntry(OsianMug, OsianPortrait, 2, 5, 2, 3)
+setMugEntry(TonyMug, TonyPortrait, 3, 5, 3, 3)
+setMugEntry(JuanMug, JuanPortrait, 2, 5, 3, 3)
+setMugEntry(ReubenMug, ReubenPortrait, 3, 5, 4, 3)
+setMugEntry(Anna1Mug, Anna1Portrait, 2, 6, 3, 4)
+setMugEntry(ArlaMug, ArlaPortrait, 3, 6, 3, 4)
+setMugEntry(IrenaMug, IrenaPortrait, 2, 6, 3, 4)
+setMugEntry(ReaganMug, ReaganPortrait, 3, 6, 3, 4)
+setMugEntry(IngridMug, IngridPortrait, 3, 6, 3, 4)
+setMugEntry(Dan1Mug, Dan1Portrait, 2, 5, 3, 3)
+setMugEntry(Dan2Mug, Dan2Portrait, 2, 5, 3, 3)
+setMugEntry(FraochMug, FraochPortrait, 3, 5, 3, 3)
+setMugEntry(KarnMug, KarnPortrait, 2, 4, 3, 2)
+setMugEntry(SonnyMug, SonnyPortrait, 2, 5, 3, 3)
+setMugEntry(AlyaMug, AlyaPortrait, 3, 6, 3, 4)
+setMugEntry(HadiMug, HadiPortrait, 3, 5, 3, 3)
+setMugEntry(FeidlimidMug, FeidlimidPortrait, 2, 6, 3, 4)
+setMugEntry(DogMug, DogPortrait, 5, 8, 4, 6)
+setMugEntry(VolstaggMug, VolstaggPortrait, 3, 5, 2, 3)
+setMugEntry(RhosynMug, RhosynPortrait, 3, 5, 3, 3)
+setMugEntry(ArwenMug, ArwenPortrait, 2, 6, 3, 4)
+setMugEntry(EoMug, EoPortrait, 2, 5, 3, 3)
+setMugEntry(Anna2Mug, Anna2Portrait, 2, 6, 3, 4)
+setMugEntry(FelixMug, FelixPortrait, 3, 5, 3, 3)
+setMugEntry(WandaMug, WandaPortrait, 3, 5, 3, 3)
+setMugEntry(ItzharMug, ItzharPortrait, 3, 5, 3, 3)
+setMugEntry(DestinyMug, DestinyPortrait, 3, 6, 3, 4)
+
+setMugEntry(NathanMug, NathanPortrait, 3, 5, 3, 3)
+setMugEntry(BernerMug, BernerPortrait, 3, 6, 3, 4)
+setMugEntry(SkaidriteMug, SkaidritePortrait, 2, 5, 3, 3)
+setMugEntry(IgnaveMug, IgnavePortrait, 3, 5, 3, 3)
+setMugEntry(AlzoramMug, AlzoramPortrait, 2, 5, 2, 3)
+setMugEntry(MerarriMug, MerarriPortrait, 3, 5, 3, 3)
+setMugEntry(AlgrimMug, AlgrimPortrait, 2, 5, 2, 3)
+setMugEntry(MaulochMug, MaulochPortrait, 3, 5, 3, 3)
+setMugEntry(RicketsMug, RicketsPortrait, 2, 5, 2, 3)
+setMugEntry(LucioMug, LucioPortrait, 2, 6, 3, 4)
+setMugEntry(CyrilleMug, CyrillePortrait, 2, 6, 3, 4)
+setMugEntry(BlunderbussMug, BlunderbussPortrait, 3, 5, 3, 3)
+setMugEntry(AvanthMug, AvanthPortrait, 2, 5, 2, 3)
+setMugEntry(RansleyMug, RansleyPortrait, 3, 5, 3, 3)
+setMugEntry(VercingeMug, VercingePortrait, 2, 5, 3, 3)
+setMugEntry(DiqhedMug, DiqhedPortrait, 3, 5, 3, 3)
+setMugEntry(EsmeMug, EsmePortrait, 3, 6, 3, 4)
+setMugEntry(KorathMug, KorathPortrait, 2, 5, 2, 3)
+setMugEntry(GaburasMug, GaburasPortrait, 3, 6, 3, 4)
+setMugEntry(AswangMug, AswangPortrait, 3, 5, 3, 3)
+setMugEntry(ZelrothMug, ZelrothPortrait, 3, 5, 3, 3)
+setMugEntry(WulfricMug, WulfricPortrait, 4, 5, 4, 3)
+setMugEntry(FloorentiusMug, FloorentiusPortrait, 3, 5, 3, 3)
+setMugEntry(ZephyrMug, ZephyrPortrait, 2, 5, 3, 3)
+setMugEntry(GodfreyMug, GodfreyPortrait, 3, 5, 3, 3)
+setMugEntry(HeinrikMug, HeinrikPortrait, 3, 5, 3, 3)
+setMugEntry(MorphLucioMug, MorphLucioPortrait, 2, 6, 3, 4)
+setMugEntry(MorphEsmeMug, MorphEsmePortrait, 3, 6, 3, 4)
+setMugEntry(MorphKorathMug, MorphKorathPortrait, 2, 5, 2, 3)
+setMugEntry(MorphWulfricMug, MorphWulfricPortrait, 4, 5, 4, 3)
+setMugEntry(MorphAswangMug, MorphAswangPortrait, 3, 5, 3, 3)
+setMugEntry(MorphZelrothMug, MorphZelrothPortrait, 3, 5, 3, 3)
+setMugEntry(MorphFloorentiusMug, MorphFloorentiusPortrait, 3, 5, 3, 3)
+setMugEntry(MorphDiqhedMug, MorphDiqhedPortrait, 3, 5, 3, 3)
+setMugEntry(MorphAlgrimMug, MorphAlgrimPortrait, 2, 5, 2, 3)
+setMugEntry(TempestMug, TempestPortrait, 2, 4, 2, 2)
+setMugEntry(TomorsiifMug, TomorsiifPortrait, 5, 5, 5, 3)
+setMugEntry(MizukiMug, MizukiPortrait, 4, 6, 4, 4)
+
+setMugEntry(Villager1Mug, VillagerPortrait1, 2, 6, 3, 4)
+setMugEntry(Villager2Mug, VillagerPortrait2, 2, 7, 3, 5)
+setMugEntry(Villager3Mug, VillagerPortrait3, 2, 5, 3, 3)
+setMugEntry(Villager4Mug, VillagerPortrait4, 2, 6, 3, 4)
+setMugEntry(Villager5Mug, VillagerPortrait5, 2, 5, 3, 3)
+setMugEntry(Villager6Mug, VillagerPortrait6, 2, 5, 3, 3)
+setMugEntry(Villager7Mug, VillagerPortrait7, 2, 7, 3, 5)
+setMugEntry(Villager8Mug, VillagerPortrait8, 2, 6, 3, 4)
+setMugEntry(Villager9Mug, VillagerPortrait9, 2, 6, 3, 4)
+setMugEntry(Villager10Mug, VillagerPortrait10, 2, 6, 3, 4)
+setMugEntry(Villager11Mug, VillagerPortrait11, 2, 6, 3, 4)
+setMugEntry(Villager12Mug, VillagerPortrait12, 2, 7, 3, 5)
+
+
+//////////////////////////////////////////////////////////////////////
+
+
+ArchMogallClassCardFile:
+#incext Png2Dmp "Generics/ArchMogall.png" --lz77
+
+ArchMogallClassCardPalette:
+#incext Png2Dmp "Generics/ArchMogall.png" --palette-only
+
+AssassinClassCardFile:
+#incext Png2Dmp "Generics/Assassin.png" --lz77
+
+AssassinClassCardPalette:
+#incext Png2Dmp "Generics/Assassin.png" --palette-only
+
+AxeCavFClassCardFile:
+#incext Png2Dmp "Generics/AxeCavF.png" --lz77
+
+AxeCavFClassCardPalette:
+#incext Png2Dmp "Generics/AxeCavF.png" --palette-only
+
+AxeCavMClassCardFile:
+#incext Png2Dmp "Generics/AxeCavM.png" --lz77
+
+AxeCavMClassCardPalette:
+#incext Png2Dmp "Generics/AxeCavM.png" --palette-only
+
+AxePalClassCardFile:
+#incext Png2Dmp "Generics/AxePal.png" --lz77
+
+AxePalClassCardPalette:
+#incext Png2Dmp "Generics/AxePal.png" --palette-only
+
+BaelQueenClassCardFile:
+#incext Png2Dmp "Generics/BaelQueen.png" --lz77
+
+BaelQueenClassCardPalette:
+#incext Png2Dmp "Generics/BaelQueen.png" --palette-only
+
+CerberusClassCardFile:
+#incext Png2Dmp "Generics/Cerberus.png" --lz77
+
+CerberusClassCardPalette:
+#incext Png2Dmp "Generics/Cerberus.png" --palette-only
+
+CursedSwordClassCardFile:
+#incext Png2Dmp "Generics/CursedSword.png" --lz77
+
+CursedSwordClassCardPalette:
+#incext Png2Dmp "Generics/CursedSword.png" --palette-only
+
+DancerClassCardFile:
+#incext Png2Dmp "Generics/Dancer.png" --lz77
+
+DancerClassCardPalette:
+#incext Png2Dmp "Generics/Dancer.png" --palette-only
+
+HalberdierClassCardFile:
+#incext Png2Dmp "Generics/Halberdier.png" --lz77
+
+HalberdierClassCardPalette:
+#incext Png2Dmp "Generics/Halberdier.png" --palette-only
+
+LanceCavFClassCardFile:
+#incext Png2Dmp "Generics/LanceCavF.png" --lz77
+
+LanceCavFClassCardPalette:
+#incext Png2Dmp "Generics/LanceCavF.png" --palette-only
+
+LanceCavMClassCardFile:
+#incext Png2Dmp "Generics/LanceCavM.png" --lz77
+
+LanceCavMClassCardPalette:
+#incext Png2Dmp "Generics/LanceCavM.png" --palette-only
+
+MaelduinClassCardFile:
+#incext Png2Dmp "Generics/Maelduin.png" --lz77
+
+MaelduinClassCardPalette:
+#incext Png2Dmp "Generics/Maelduin.png" --palette-only
+
+MarauderClassCardFile:
+#incext Png2Dmp "Generics/Marauder.png" --lz77
+
+MarauderClassCardPalette:
+#incext Png2Dmp "Generics/Marauder.png" --palette-only
+
+SpartanClassCardFile:
+#incext Png2Dmp "Generics/Spartan.png" --lz77
+
+SpartanClassCardPalette:
+#incext Png2Dmp "Generics/Spartan.png" --palette-only
+
+StrigoiClassCardFile:
+#incext Png2Dmp "Generics/Strigoi.png" --lz77
+
+StrigoiClassCardPalette:
+#incext Png2Dmp "Generics/Strigoi.png" --palette-only
+
+SwordCavFClassCardFile:
+#incext Png2Dmp "Generics/SwordCavF.png" --lz77
+
+SwordCavFClassCardPalette:
+#incext Png2Dmp "Generics/SwordCavF.png" --palette-only
+
+SwordCavMClassCardFile:
+#incext Png2Dmp "Generics/SwordCavM.png" --lz77
+
+SwordCavMClassCardPalette:
+#incext Png2Dmp "Generics/SwordCavM.png" --palette-only
+
+SwordPalClassCardFile:
+#incext Png2Dmp "Generics/SwordPal.png" --lz77
+
+SwordPalClassCardPalette:
+#incext Png2Dmp "Generics/SwordPal.png" --palette-only
+
+WightClassCardFile:
+#incext Png2Dmp "Generics/Wight.png" --lz77
+
+WightClassCardPalette:
+#incext Png2Dmp "Generics/Wight.png" --palette-only
+
+
+
+setCardEntry(ArchMogallGenericMug,ArchMogallClassCardFile,ArchMogallClassCardPalette)
+setCardEntry(AssassinGenericMug,AssassinClassCardFile,AssassinClassCardPalette)
+setCardEntry(AxeCavFGenericMug,AxeCavFClassCardFile,AxeCavFClassCardPalette)
+setCardEntry(AxeCavMGenericMug,AxeCavMClassCardFile,AxeCavMClassCardPalette)
+setCardEntry(AxePalGenericMug,AxePalClassCardFile,AxePalClassCardPalette)
+setCardEntry(BaelQueenGenericMug,BaelQueenClassCardFile,BaelQueenClassCardPalette)
+setCardEntry(CerberusGenericMug,CerberusClassCardFile,CerberusClassCardPalette)
+setCardEntry(CursedSwordGenericMug,CursedSwordClassCardFile,CursedSwordClassCardPalette)
+setCardEntry(DancerGenericMug,DancerClassCardFile,DancerClassCardPalette)
+setCardEntry(HalberdierGenericMug,HalberdierClassCardFile,HalberdierClassCardPalette)
+setCardEntry(LanceCavFGenericMug,LanceCavFClassCardFile,LanceCavFClassCardPalette)
+setCardEntry(LanceCavMGenericMug,LanceCavMClassCardFile,LanceCavMClassCardPalette)
+setCardEntry(MaelduinGenericMug,MaelduinClassCardFile,MaelduinClassCardPalette)
+setCardEntry(MarauderGenericMug,MarauderClassCardFile,MarauderClassCardPalette)
+setCardEntry(SpartanGenericMug,SpartanClassCardFile,SpartanClassCardPalette)
+setCardEntry(StrigoiGenericMug,StrigoiClassCardFile,StrigoiClassCardPalette)
+setCardEntry(SwordCavFGenericMug,SwordCavFClassCardFile,SwordCavFClassCardPalette)
+setCardEntry(SwordCavMGenericMug,SwordCavMClassCardFile,SwordCavMClassCardPalette)
+setCardEntry(SwordPalGenericMug,SwordPalClassCardFile,SwordPalClassCardPalette)
+setCardEntry(WightGenericMug,WightClassCardFile,WightClassCardPalette)

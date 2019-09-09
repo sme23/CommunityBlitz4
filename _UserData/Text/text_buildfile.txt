@@ -1,5 +1,44 @@
-#0xD4C ZeroEntry
+#include "chapter_names.txt"
+
+#0xD53 ZeroEntry
 [X]
 
 ## SampleText
 Your text here![X]
+
+##EscapeWindowText
+Escape[X]
+
+##ReconstructWindowText
+Reconstruct[X]
+
+##Kill2BossesWindowText
+Kill 2 Bosses[X]
+
+##DefeatFleetWindowText
+Defeat Fleet[X]
+
+##MultiSeizeWindowText
+Seize 3 Gates[X]
+
+##EscortConvoyWindowText
+Escort Convoy[X]
+
+##ArriveWindowText
+Arrive[X]
+
+##BearClawName
+Bear Claw[X]
+
+##PlaceholderText
+[OpenMidRight][LoadRia]
+This is placeholder text![A][X]
+
+#include "class_text.txt"
+#include "character_text.txt"
+#include "death_text.txt"
+#include "battle_text.txt"
+#include "residence_text.txt"
+#include "support_text.txt"
+
+#include "ch6_cutscenes.txt"

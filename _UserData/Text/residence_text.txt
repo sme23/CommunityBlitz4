@@ -1,0 +1,320 @@
+##Ch0House1
+[X]
+
+##Ch0House2
+[X]
+
+##Ch0House3
+[X]
+
+##Ch1Village1
+#Lilac recruit
+[X]
+
+##Ch1Village2
+#1000g
+[X]
+
+##Ch2Village1
+#Torch
+[X]
+
+##Ch2Village2
+#Devil Axe
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager5]
+You fool! You absolute buffoon![A][N]
+You think you can challenge me[N]
+in my own realm!?[A][N]
+You think you can just rebel[N]
+against my authority!?[A][N]
+You dare come into my house[N]
+and upturn my dining chairs,[A][N]
+and spill coffee grounds in my Keurig!?[A][N]
+You thought you were safe in your[N]
+chainmail armor behind that screen of yours.[A][N]
+[ToggleRed]I will take these laminate wood[N]
+floor boards and destroy you![ToggleRed][A][N]
+I didn't want war, but I didn't start it![A]
+[X]
+
+##Ch3Village1
+#Energy Ring
+[X]
+
+##Ch3Village2
+#Killer Axe
+[X]
+
+##Ch3House1
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager4]
+God is dead.[A][N]
+God wemains dead.[A][N]
+And we have kiwwed him.[A][N]
+How shaww we comfowt ouwsewves,[N]
+the mwuwdewews of aww mwuwdewews?[A][N]
+What was howist and mwightiest of[N]
+aww that the wowwd has owned has[A][N]
+bwed to death undew ouw knives.[A][N]
+Who wiww wipe this bwood off us?[A][N]
+What watew is thewe to cwean ouwsewves?[A][N]
+[X]
+
+##Ch3House2
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager12]
+I am so tired of peeing.[A][N]
+I drink the water,[N]
+which I apparently need to live or something,[A][N]
+then I have to go put the water[N]
+somewhere else five minutes later.[A][N]
+I drink the water,[N]
+I go to a place to un-drink the water,[A][N]
+I wash my hands,[N]
+I leave,[A][N]
+then I have to drink MORE water.[A][N]
+Guess where that water ends up? Not in me![A][N]
+I give the water to my body and like a[N]
+child it tosses it out and demands more.[A][N]
+All hours of the day,[N]
+all hours of the night,[A][N]
+no matter what I am doing my life is[N]
+interrupted by PISS and this is BULLSHIT![A]
+[X]
+
+##Ch6SharedVillage1
+[X]
+
+##Ch6SharedVillage2
+[X]
+
+##Ch6SharedVillage3
+[X]
+
+##Ch6Village1Text1
+#
+[X]
+
+##Ch6Village1Text2
+[X]
+
+##Ch6Village2Text1
+#
+[X]
+
+##Ch6Village2Text2
+[X]
+
+##Ch6Village3Text1
+#
+[X]
+
+##Ch6Village3Text2
+[X]
+
+##Ch7Village1
+#Angelic Robe
+[X]
+
+##Ch7Village2
+#Killer Axe
+[X]
+
+##Ch7Village3
+#Lancereaver
+[X]
+
+##Ch9Village1
+#Knight Crest
+[X]
+
+##Ch9Village2
+#Hero Crest
+[X]
+
+##Ch9House1
+[X]
+
+##Ch11Village1
+#Master Seal
+[X]
+
+##Ch11Village2
+#Goddess Icon
+[X]
+
+##Ch11Village3
+#Talisman
+[X]
+
+##Ch11Village4
+#Wind Sword
+[X]
+
+##Ch11Village5
+#Re-Move skill
+[X]
+
+##Ch11House1
+[X]
+
+##Ch11House2
+[X]
+
+##Ch11House3
+[X]
+
+##Ch13Village1
+#Berserk staff
+[X]
+
+##Ch13Village2
+#Wrath skill
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager2]
+Cool bug Fact's[A][NL]
+You dumb fucking[NL]
+cretin, you fucking fool[A][NL]
+absolute fucking[NL]
+buffoon, you bumbling[A][NL]
+idiot. Fuck you.[A][X]
+
+##Ch13Village3
+#Hadi recruit
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadHadi]
+I'll keep it simple.[A][NL]
+Diqhed doesn't like the clergy.[A][NL]
+So that means me and my fellow[NL]
+church goers will soon be dead.[A][NL]
+Of course, if I join your lot,[A][NL]
+He ought soon be dead, making me[NL]
+A whole lot less dead.[A][NL]
+Compared to sticking here at least.[A][NL]
+[X]
+
+##Ch13House1
+[X]
+
+##Ch13House2
+[X]
+
+##Ch13House3
+[X]
+
+##Ch13House4
+[X]
+
+##Ch13House5
+[X]
+
+##Ch14Village1
+#
+[X]
+
+##Ch14House1
+[X]
+
+##Ch14House2
+[X]
+
+##Ch14House3
+[X]
+
+##Ch14House4
+[X]
+
+##Ch14House5
+[X]
+
+##Ch14House6
+[X]
+
+##Ch14House7
+[X]
+
+##Ch14House8
+[X]
+
+##Ch14House9
+[X]
+
+##Ch14House10
+[X]
+
+##Ch14House11
+[X]
+
+##Ch14House12
+[X]
+
+##Ch16Village1
+#Luna skill
+[X]
+
+##Ch16Village2
+#Runesword
+[X]
+
+##Ch16Village3
+#Restore
+[X]
+
+##Ch16Village4
+#Barrier
+[X]
+
+##Ch16Village5
+#Member Card
+[X]
+
+##Ch16House1
+[X]
+
+##Ch16House2
+[X]
+
+##Ch16House3
+[X]
+
+##Ch16House4
+[X]
+
+##Ch16House5
+[X]
+
+##Ch16House6
+[X]
+
+##Ch16House7
+[X]
+
+##Ch16House8
+[X]
+
+##Ch18Village1
+#White Gem
+[X]
+
+##Ch18Village2
+#Zanbato
+[X]
+
+##Ch18Village3
+#Boots
+[X]
+
+##Ch18House1
+[X]
+
+##Ch19Village1
+#Boots
+[X]
+
+##Ch19Village2
+#Speedwings
+[X]
+
+##Ch20Village1
+#Secret Book
+[X]
+
+##Ch20Village2
+#Boots
+[X]

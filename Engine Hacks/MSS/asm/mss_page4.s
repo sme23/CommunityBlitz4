@@ -16,7 +16,7 @@ setup_menu
 
 @Skills
 
-draw_textID_at 16, 18, textID=0xd4d, width=16, colour=Green
+@draw_textID_at 17, 18, textID=0xd4b, width=16, colour=Green
 
 Nexty:
 b skipliterals
@@ -40,7 +40,7 @@ draw_skill_icon_at 13, 4
 ldrb r0, [r6] 
 lsl r0, r0, #1
 ldrh r0, [r5, r0]
-draw_skillname_at 16, 4
+draw_skillname_at 15, 4
 
 ldrb r0, [r6,#1]
 cmp r0, #0
@@ -51,7 +51,7 @@ draw_skill_icon_at 13, 6
 ldrb r0, [r6, #1] 
 lsl r0, r0, #1
 ldrh r0, [r5, r0]
-draw_skillname_at 16, 6
+draw_skillname_at 15, 6
 
 ldrb r0, [r6, #2]
 cmp r0, #0
@@ -62,7 +62,7 @@ draw_skill_icon_at 13, 8
 ldrb r0, [r6, #2] 
 lsl r0, r0, #1
 ldrh r0, [r5, r0]
-draw_skillname_at 16, 8
+draw_skillname_at 15, 8
 
 ldrb r0, [r6, #3]
 cmp r0, #0
@@ -73,7 +73,7 @@ draw_skill_icon_at 13, 10
 ldrb r0, [r6, #3] 
 lsl r0, r0, #1
 ldrh r0, [r5, r0]
-draw_skillname_at 16, 10
+draw_skillname_at 15, 10
 
 ldrb r0, [r6, #4]
 cmp r0, #0
@@ -84,7 +84,7 @@ draw_skill_icon_at 13, 12
 ldrb r0, [r6, #4] 
 lsl r0, r0, #1
 ldrh r0, [r5, r0]
-draw_skillname_at 16, 12
+draw_skillname_at 15, 12
 
 ldrb r0, [r6, #5]
 cmp r0, #0
@@ -95,7 +95,7 @@ draw_skill_icon_at 13, 14
 ldrb r0, [r6, #5] 
 lsl r0, r0, #1
 ldrh r0, [r5, r0]
-draw_skillname_at 16, 14
+draw_skillname_at 15, 14
 
 SkillEnd:
 

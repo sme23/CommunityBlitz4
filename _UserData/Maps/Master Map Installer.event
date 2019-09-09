@@ -8,3 +8,73 @@
   #endif
 #endif
 #define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*148)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; EventPointerTable(MapID,MapPointer); POP" 
+
+{
+#include "Chapter0Map.event"
+}
+{
+#include "Chapter10Map.event"
+}
+{
+#include "Chapter11Map.event"
+}
+{
+#include "Chapter12Map.event"
+}
+{
+#include "Chapter13Map.event"
+}
+{
+#include "Chapter14Map.event"
+}
+{
+#include "Chapter15Map.event"
+}
+{
+#include "Chapter16Map.event"
+}
+{
+#include "Chapter17Map.event"
+}
+{
+#include "Chapter18Map.event"
+}
+{
+#include "Chapter19Map.event"
+}
+{
+#include "Chapter1Map.event"
+}
+{
+#include "Chapter20Map.event"
+}
+{
+#include "Chapter2Map.event"
+}
+{
+#include "Chapter3Map.event"
+}
+{
+#include "Chapter4Map.event"
+}
+{
+#include "Chapter5Map.event"
+}
+{
+#include "Chapter6Map.event"
+}
+{
+#include "Chapter7Map.event"
+}
+{
+#include "Chapter8Map.event"
+}
+{
+#include "Chapter9Map.event"
+}
+{
+#include "Endgame1Map.event"
+}
+{
+#include "Endgame2Map.event"
+}

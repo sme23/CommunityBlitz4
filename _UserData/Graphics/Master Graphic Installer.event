@@ -1,0 +1,15 @@
+#include "Map Sprites/_Map Sprite Installer.event"
+#include "Mugs/_Mug Installer.event"
+#include "Item Icons/_Item Icon Installer.event"
+#include "StatScreen/StatScreenInstaller.event"
+
+PUSH
+  ORG $AC188
+  POIN NewDifficultyButtons
+  ORG $802558
+  #incbin "BattleScreenPalettes.dmp"
+POP
+
+NewDifficultyButtons:
+#incext Png2Dmp "difficulty.png" --lz77
+

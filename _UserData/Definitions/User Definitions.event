@@ -1,3 +1,287 @@
 #include "Item Definitions.event"
 #include "Class Definitions.event"
 #include "Character Definitions.event"
+
+// TODO: move to own file
+#define Ch10Id 10
+#define Ch11Id 11
+
+// TODO: move to own file
+#define FERRY_AI1     10
+#define CH10_ALLY_AI1 11
+
+#define CH10_DAN_AI2  11
+
+
+//Song defs
+#define Song_RickAstley 9
+#define Song_FE4Ch1 10
+#define Song_DwellingOfDoom 11
+#define Song_Seahorse 12
+#define Song_TrainRush 13
+#define Song_Bergentruckung 14
+#define Song_BoatMaps 16
+#define Song_KaiTheme 17
+#define Song_TheDevoted 18
+#define Song_LockedGirl 19
+#define Song_QuestBattle 20
+#define Song_QuicklyDifficult 21
+#define Song_WorldBowser 22
+#define Song_Toccata 23
+#define Song_UNOwen 24
+#define Song_WithUs 25
+#define Song_FactoryInspection 26
+#define Song_BeneathANewLight 27
+#define Song_Friends 28
+#define Song_DeadlySix 29
+#define Song_Battle 30
+#define Song_EnemyBattle 31
+
+//mug IDs
+#define RiaMug Ria
+#define GarthanMug Garthan
+#define EverettMug Everett
+#define IgnaceMug Ignace
+#define EdithMug Edith
+#define MaurusMug Maurus
+#define FuriaMug Furia
+#define KateMug Kate
+#define LilacMug Lilac
+#define SayraMug Sayra
+#define JhonkaMug Jhonka
+#define AciesMug Acies
+#define YorrickMug Yorrick
+#define MintMug Mint
+#define GershonMug Gershon
+#define OsianMug Osian
+#define TonyMug Tony
+#define JuanMug Juan
+#define ReubenMug Reuben
+#define Anna1Mug Anna1
+#define ArlaMug Arla
+#define IrenaMug Irena
+#define ReaganMug Reagan
+#define IngridMug Ingrid
+#define Dan1Mug Dan1
+#define Dan2Mug Dan2
+#define FraochMug Fraoch
+#define KarnMug Karn
+#define SonnyMug Sonny
+#define AlyaMug Alya
+#define HadiMug Hadi
+#define FeidlimidMug Feidlimid
+#define DogMug Dog
+#define VolstaggMug Volstagg
+#define RhosynMug Rhosyn
+#define ArwenMug Arwen
+#define EoMug Eo
+#define Anna2Mug Anna2
+#define FelixMug Felix
+#define WandaMug Wanda
+#define ItzharMug Itzhar
+#define DestinyMug Destiny
+
+//boss mug defs
+
+#define NathanMug Nathan
+#define BernerMug Berner
+#define SkaidriteMug Skaidrite
+#define IgnaveMug Ignave
+#define AlzoramMug Alzoram
+#define MerrariMug Merrari
+#define MerarriMug Merrari
+#define AlgrimMug Algrim
+#define AlgrimMug2 AlgrimMug
+#define MaulochMug Mauloch
+#define RicketsMug Rickets
+#define LucioMug Lucio
+#define CyrilleMug Cyrille
+#define BlunderbussMug Blunderbuss
+#define AvanthMug Avanth
+#define RansleyMug Ransley
+#define VercingeMug Vercinge
+#define DiqhedMug Diqhed
+#define EsmeMug Esme
+#define KorathMug Korath
+#define GaburasMug Gaburas
+#define AswangMug Aswang
+#define ZelrothMug Zelroth
+#define WulfricMug Wulfric
+#define FloorentiusMug Floorentius
+#define ZephyrMug Zephyr
+#define GodfreyMug Godfrey
+#define HeinrikMug Heinrik
+#define LucioMug2 Lucio2
+#define EsmeMug2 Esme2
+#define KorathMug2 Korath2
+#define WulfricMug2 Wulfric2
+#define AswangMug2 Aswang2
+#define ZelrothMug2 Zelroth2
+#define FloorentiusMug2 Floorentius2
+#define DiqhedMug2 Diqhed2
+#define AlgrimMug3 0x69
+#define TempestMug 0xAB
+#define TomorsiifMug 0xAC
+#define MizukiMug 0xAD
+#define MorphLucioMug LucioMug2
+#define MorphEsmeMug EsmeMug2
+#define MorphKorathMug KorathMug2
+#define MorphWulfricMug WulfricMug2
+#define MorphAswangMug AswangMug2
+#define MorphZelrothMug ZelrothMug2
+#define MorphFloorentiusMug FloorentiusMug2
+#define MorphDiqhedMug DiqhedMug2
+#define MorphAlgrimMug AlgrimMug3
+
+#define Villager1Mug 0xBA
+#define Villager2Mug 0xAF
+#define Villager3Mug 0xB0
+#define Villager4Mug 0xB1
+#define Villager5Mug 0xB2
+#define Villager6Mug 0xB3
+#define Villager7Mug 0xB4
+#define Villager8Mug 0xB5
+#define Villager9Mug 0xB6
+#define Villager10Mug 0xB7
+#define Villager11Mug 0xB8
+#define Villager12Mug 0xB9
+
+#define MyrmidonGenericMug 0x72
+#define SwordmasterGenericMug 0x73
+#define FighterGenericMug 0x74
+#define WarriorGenericMug 0x75
+#define KnightGenericMug 0x76
+#define GeneralGenericMug 0x77
+#define ArcherGenericMug 0x78
+#define SniperGenericMug 0x79
+#define T1LightGenericMug 0x7A
+#define T2LightGenericMug 0x7B
+#define T1AnimaGenericMug 0x7C
+#define T2AnimaGenericMug 0x7D
+#define T1DarkGenericMug 0x7E
+#define T2DarkGenericMug 0x7F
+#define LancePalGenericMug 0x81
+#define TroubadourGenericMug 0x82
+#define ValkyrieGenericMug 0x83
+#define NomadGenericMug 0x84
+#define NomadTrooperGenericMug 0x85
+#define PegasusKnightGenericMug 0x86
+#define FalcoknightGenericMug 0x87
+#define WyvernRiderGenericMug 0x88
+#define WyvernLordGenericMug 0x89
+#define SoldierGenericMug 0x8A
+#define BrigandGenericMug 0x8B
+#define PirateGenericMug 0x8C
+#define BerserkerGenericMug 0x8D
+#define ThiefGenericMug 0x8E
+#define ManaketeGenericMug 0x8F
+#define MercenaryGenericMug 0x90
+#define HeroGenericMug 0x91
+#define FleetGenericMug 0x92
+#define WyvernKnightGenericMug 0x93
+#define RogueGenericMug 0x94
+#define MageKnightGenericMug 0x95
+#define GreatKnightGenericMug 0x96
+#define RangerGenericMug 0x97
+#define PhantomGenericMug 0x98
+#define RevenantGenericMug 0x99
+#define EntombedGenericMug 0x9A
+#define BonewalkerGenericMug 0x9B
+#define WightGenericMug 0x9C
+#define BaelGenericMug 0x9D
+#define BaelQueenGenericMug 0x9E
+#define CyclopsGenericMug 0x9F
+#define MautheDoogGenericMug 0xA0
+#define CerberusGenericMug 0xA1
+#define TarvosGenericMug 0xA2
+#define MaelduinGenericMug 0xA3
+#define MogallGenericMug 0xA4
+#define ArchMogallGenericMug 0xA5
+#define GorgonGenericMug 0xA6
+#define GargoyleGenericMug 0xA7
+#define StrigoiGenericMug 0xA8
+#define NecrodragonGenericMug 0xA9
+#define DemonKingGenericMug 0xAA
+
+#define SwordCavMGenericMug 0xBA
+#define SwordCavFGenericMug 0xBB
+#define LanceCavMGenericMug 0x80
+#define LanceCavFGenericMug 0xBC
+#define AxeCavMGenericMug 0xBD
+#define AxeCavFGenericMug 0xBE
+#define SwordPalGenericMug 0xBF
+#define AxePalGenericMug 0xC0
+#define DancerGenericMug 0xC1
+#define HalberdierGenericMug 0xC2
+#define SpartanGenericMug 0xC3
+#define AssassinGenericMug 0xC4
+#define MarauderGenericMug 0xC5
+#define CursedSwordGenericMug 0xC6
+
+//misc
+
+#define InfantryType 0x100
+#define MerrariName MerarriName
+#define MerrariDesc MerarriDesc
+#define VercingeName VerchingeName
+#define VercingeDesc VerchingeDesc
+#define Phantom GhostFighter
+#define Convoy Transporter
+
+//Goal text defs
+
+#define SurviveWindowText 0x19C
+#define DefeatBossWindowText 0x19D
+#define RoutWindowText 0x19E
+#define SeizeGateWindowText 0x19F
+#define SeizeThroneWindowText 0x1A1
+
+/* from table defs
+//Objective Display Definitions
+#define ObjectiveSeize 0x0
+#define ObjectiveRout 0x1
+#define ObjectiveDefend 0x2
+#define ObjectiveKillBoss 0x3
+*/
+
+//ASMC Check Suite
+#define CheckLevel(Character) "SVAL 0x1 Character; ASMC CheckLevelASMC|1"
+#define CheckExperience(Character) "SVAL 0x1 Character; ASMC CheckExperienceASMC|1"
+#define CheckMaxHP(Character) "SVAL 0x1 Character; ASMC CheckMaxHPASMC|1"
+#define CheckCurrentHP(Character) "SVAL 0x1 Character; ASMC CheckCurrentHPASMC|1"
+#define CheckStrength(Character) "SVAL 0x1 Character; ASMC CheckLStrengthASMC|1"
+#define CheckSkill(Character) "SVAL 0x1 Character; ASMC CheckSkillASMC|1"
+#define CheckSpeed(Character) "SVAL 0x1 Character; ASMC CheckSpeedASMC|1"
+#define CheckDefense(Character) "SVAL 0x1 Character; ASMC CheckDefenseASMC|1"
+#define CheckResistance(Character) "SVAL 0x1 Character; ASMC CheckResistanceASMC|1"
+#define CheckConstitution(Character) "SVAL 0x1 Character; ASMC CheckConstitutionASMC|1"
+#define CheckMovement(Character) "SVAL 0x1 Character; ASMC CheckMovementASMC|1"
+#define CheckInventory(Character,Item) "SVAL 0x1 Character; SVAL 0x2 Item; ASMC CheckHasItemASMC|1"
+#define CheckSwordRank(Character) "SVAL 0x1 Character; ASMC CheckSwordRankASMC|1"
+#define CheckLanceRank(Character) "SVAL 0x1 Character; ASMC CheckLanceRankASMC|1"
+#define CheckAxeRank(Character) "SVAL 0x1 Character; ASMC CheckAxeRankASMC|1"
+#define CheckBowRank(Character) "SVAL 0x1 Character; ASMC CheckBowRankASMC|1"
+#define CheckStaffRank(Character) "SVAL 0x1 Character; ASMC CheckStaffRankASMC|1"
+#define CheckAnimaRank(Character) "SVAL 0x1 Character; ASMC CheckAnimaRankASMC|1"
+#define CheckLightRank(Character) "SVAL 0x1 Character; ASMC CheckLightRankASMC|1"
+#define CheckDarkRank(Character) "SVAL 0x1 Character; ASMC CheckDarkRankASMC|1"
+#define CheckStatusEffect(Character) "SVAL 0x1 Character; ASMC CheckStatusEffectASMC|1"
+#define CheckStatusDuration(Character) "SVAL 0x1 Character; ASMC CheckStatusDurationASMC|1"
+//#define CheckMagic(Character) "SVAL 0x1 Character; ASMC CheckMagicASMC|1" //add ifdefs for strmag split?
+
+
+//generic minimug defs
+#define NoGenericMiniMug 0
+#define DragonGenericMiniMug 1
+#define AllySoldierGenericMiniMug 2
+#define SoldierGenericMiniMug 3
+#define MonsterGenericMiniMug 4
+#define AllyBanditGenericMiniMug 5
+#define BanditGenericMiniMug 6
+#define PhantomGenericMiniMug 7
+
+
+MizukiPrfStatBoosts: //because there's really no better place for this
+BYTE 0 10 5 5 3 10 5 0 0 0 0 0
+
+
